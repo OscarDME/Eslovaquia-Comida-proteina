@@ -32,8 +32,9 @@ export default function Closing() {
 
     // Generate dynamic date (today or tomorrow)
     const d = new Date();
+    // CAMBIO CLAVE AQUÍ: 'sk-SK' para Eslovaquia
     setUrgencyDate(
-      d.toLocaleDateString("en-US", {
+      d.toLocaleDateString("sk-SK", {
         weekday: "long",
         year: "numeric",
         month: "long",
